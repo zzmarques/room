@@ -1,0 +1,19 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin basic-p {
+    color: $dark-gray;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 24px;
+    max-width: 300px;
+}
+
+@mixin desktop {
+    @media (min-width: 1024px) {
+        @content
+    }
+}
