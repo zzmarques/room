@@ -3,7 +3,6 @@ const menuMobile = () => {
     const btnShow = document.querySelector("div.btn-hamb");
     const btnClose = document.querySelector("nav.navbar div.btn-close");
     const navbar = document.querySelector("nav.navbar");
-    const links = document.querySelectorAll('nav.navbar ul li a');
     
 
     const shoeMenu = () => {
@@ -20,9 +19,6 @@ const menuMobile = () => {
 
     btnClose.addEventListener('click', closeMenu);
     
-    links.forEach(btn => {
-        btn.addEventListener('click', closeMenu);
-    });
 }
 
 menuMobile();
