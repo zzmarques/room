@@ -1,6 +1,4 @@
-# room
- 
-# Base Apparel - Single Page Application
+# Room
 
 <figure>
     <img src="src/assets/images/room.png">
